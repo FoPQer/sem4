@@ -53,6 +53,7 @@ public class Human {
         System.out.println("Введите возраст");
         setAge(sc.nextInt());
         System.out.println("Введите имя");
+        sc.nextLine();
         setFirstName(sc.nextLine());
         System.out.println("Введите фамилию");
         setLastName(sc.nextLine());

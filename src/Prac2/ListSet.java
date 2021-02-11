@@ -23,5 +23,6 @@ public class ListSet {
         stream.sorted(Comparator.comparing(list->list.firstName.charAt(list.firstName.length()-1))).forEach(System.out::println);
         stream.forEach(list -> list.setAge(list.getAge()+3));
         stream.forEach(list -> findMid(list.age));
+        System.out.println(sum/4);
     }
 }
